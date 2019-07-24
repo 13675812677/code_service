@@ -1,0 +1,57 @@
+//GENERATE_START
+{
+    "id": "dsfdagfdfsg423323",
+    "channel": "",
+    "tranCode": "CreateResourceBox",
+    "type": "0",
+    "dataType": "",
+    "tranDate": "",
+    "traceNo": "",
+    "retCode": "",
+    "debug": "",
+    "userid": "Org1Admin",
+    "orgid": "Org1",
+    "hasGeneric": false,
+    "errors": null,
+    "args": [{
+            "name": "sdkUrl",
+            "value": "http://192.168.137.25:8443"
+        },
+        {
+            "name": "channelName",
+            "value": "mychannel"
+        },
+        {
+            "name": "chaincodeName",
+            "value": "example"
+        },
+        {
+            "name": "functionName",
+            "value": "Invoke"
+        },
+        {
+            "name": "hasFile",
+            "value": "false"
+        },
+        {
+            "name": "asyncInvoke",
+            "value": "DISABLE"
+        },
+        {
+            "name": "otherBusinessArg",
+            "value": "argument"
+        }
+    ],
+    "data": [{
+        "content": {
+                "boxStatus":null,     
+                "boxVolume":null,     
+                "boxNo":null,     
+                "boxId":null            
+        },
+        "dataType": "ResourceBox",
+        "formatType": "OBJECT"
+    }],
+    "retObject": ""
+}
+//GENERATE_END
